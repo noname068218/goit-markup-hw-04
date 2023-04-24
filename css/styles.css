@@ -35,10 +35,13 @@ body {
   text-transform: uppercase;
   color: #4d5ae5;
   margin-right: 76px;
+  padding: 24px 0;
+  display: block;
 }
 
 .main-header {
   border-bottom: 1px solid #e7e9fc;
+  background-color: var(--background-color);
 }
 /* header, webstudio*/
 
@@ -48,10 +51,9 @@ body {
 }
 
 .container {
-  width: 1158px;
+  max-width: 1158px;
+  margin: 0 auto;
   padding: 0 15px;
-  margin-left: auto;
-  margin-right: auto;
 }
 
 /* logo webstudio*/
@@ -59,6 +61,7 @@ body {
 .nav-link {
   display: flex;
   align-items: center;
+  margin-right: 332px;
 }
 
 .logo-web {
@@ -68,10 +71,8 @@ body {
 
 .main-list {
   display: flex;
+  align-items: center;
   gap: 40px;
-  padding: 24px 0;
-  margin: 0;
-  margin-right: 156px;
 }
 
 .alert {
@@ -94,6 +95,7 @@ body {
   display: flex;
   gap: 40px;
   margin: 0;
+  align-items: center;
 }
 
 .sections-contact {
