@@ -42,6 +42,10 @@ body {
 .main-header {
   border-bottom: 1px solid #e7e9fc;
   background-color: var(--background-color);
+  box-shadow: 0px 2px 1px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16),
+    0px 1px 6px rgba(46, 47, 66, 0.08);
+  max-width: 1440px;
+  margin: 0 auto;
 }
 /* header, webstudio*/
 
@@ -137,6 +141,7 @@ body {
   margin-bottom: 48px;
   margin-top: 0;
   align-items: center;
+  width: 496px;
 }
 
 .button-order {
@@ -271,6 +276,8 @@ img {
 .row {
   padding: 32px 16px;
   border-radius: 0px 0px 4px 4px;
+  box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16),
+    0px 2px 1px rgba(46, 47, 66, 0.08);
 }
 .optinal-row {
   text-align: center;
@@ -341,6 +348,8 @@ img {
   color: #ffffff;
   background-color: #404bbf;
   border: 1px solid transparent;
+  box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 2px 1px rgba(0, 0, 0, 0.08),
+    0px 2px 2px rgba(0, 0, 0, 0.12);
 }
 
 .all-buttons {
