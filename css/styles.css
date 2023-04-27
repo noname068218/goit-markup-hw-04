@@ -295,7 +295,7 @@ img {
 /* 5 section*/
 
 .aside {
-  padding-bottom: 280px;
+  padding-bottom: 120px;
   padding-top: 120px;
 }
 
@@ -303,9 +303,11 @@ img {
   font-style: normal;
   font-weight: 700;
   font-size: 36px;
-  line-height: 1, 11;
+  line-height: 1.1;
   color: #2e2f42;
   text-align: center;
+
+  margin-bottom: 72px;
 }
 
 /* footer*/
