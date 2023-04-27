@@ -13,17 +13,31 @@ body {
   --main-link: #2e2f42;
   --porfolio-btn: #e7e9fc;
   --icon: #8e8f99;
+  --social-link: #4d5ae5;
 }
-
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  margin: 0;
+}
+img {
+  display: block;
+}
 .list {
   list-style: none;
-  margin: 0;
   padding: 0;
+  margin: 0;
 }
 .link {
+  color: inherit;
   text-decoration: none;
-  margin: 0;
-  padding: 0;
+}
+button {
+  cursor: pointer;
 }
 
 /* studio */
@@ -278,6 +292,36 @@ img {
   padding: 32px 16px;
   border-radius: 0px 0px 4px 4px;
 }
+
+.ellipse {
+  padding: 32px 0;
+}
+
+.social-link {
+  display: flex;
+  justify-content: center;
+  gap: 24px;
+}
+
+.icons-blu {
+  width: 40px;
+  height: 40px;
+}
+
+.link-icon {
+  width: 100%;
+  height: 100%;
+  background-color: var(--social-link);
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.link-icon:hover,
+.link-icon:focus {
+  background-color: var(--link-ocean);
+}
 .optinal-row {
   text-align: center;
   margin-bottom: 8px;
@@ -285,6 +329,7 @@ img {
 }
 .last-row {
   text-align: center;
+  margin-bottom: 8px;
 }
 .back {
   background-color: #ffffff;
@@ -309,6 +354,7 @@ img {
   text-align: center;
 
   margin-bottom: 72px;
+  margin-top: 0;
 }
 
 .list-items {
@@ -358,9 +404,6 @@ img {
   display: inline-block;
   margin: 0 0 16px;
   padding: 0;
-}
-
-.logo-p {
 }
 
 .text-end {
