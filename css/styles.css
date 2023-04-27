@@ -205,6 +205,18 @@ button {
   margin-bottom: 8px;
   margin-top: 0;
 }
+.banners {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  background: #f4f4fd;
+  border-radius: 4px;
+
+  width: 264px;
+  height: 112px;
+  margin-bottom: 8px;
+}
 
 .desc {
   flex-basis: calc((100% - 72px) / 4);
