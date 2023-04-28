@@ -143,6 +143,7 @@ button {
   background-position: center;
   background-size: cover;
   max-width: 1440px;
+  height: 600px;
   margin: 0 auto;
 }
 
@@ -205,7 +206,13 @@ button {
   margin-bottom: 8px;
   margin-top: 0;
 }
-.banners {
+
+.desc {
+  flex-basis: calc((100% - 72px) / 4);
+}
+
+.desc::before {
+  content: '';
   display: flex;
   justify-content: center;
   align-items: center;
@@ -216,10 +223,6 @@ button {
   width: 264px;
   height: 112px;
   margin-bottom: 8px;
-}
-
-.desc {
-  flex-basis: calc((100% - 72px) / 4);
 }
 
 .text {
