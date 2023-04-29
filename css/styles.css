@@ -14,6 +14,7 @@ body {
   --porfolio-btn: #e7e9fc;
   --icon: #8e8f99;
   --social-link: #4d5ae5;
+  --socials-link: #f4f4fd;
 }
 h1,
 h2,
@@ -211,8 +212,7 @@ button {
   flex-basis: calc((100% - 72px) / 4);
 }
 
-.desc::before {
-  content: '';
+.banners {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -331,6 +331,9 @@ img {
   display: flex;
   justify-content: center;
   align-items: center;
+}
+.social-icons {
+  fill: var(--socials-link);
 }
 
 .link-icon:hover,
