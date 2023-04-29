@@ -327,6 +327,12 @@ img {
   justify-content: center;
   align-items: center;
 }
+.social-link {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 24px;
+}
 .social-icon {
   display: flex;
   justify-content: center;
