@@ -265,7 +265,6 @@ button {
   flex-basis: calc((100% - 3 * 16px) / 3);
   padding-left: 0;
   margin-top: 0;
-  margin-bottom: 120px;
 }
 img {
   display: block;
@@ -455,7 +454,6 @@ img {
 .social-titel {
   display: flex;
   align-items: center;
-  margin-bottom: 16px;
 
   font-style: normal;
   font-weight: 500;
