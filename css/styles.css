@@ -253,7 +253,6 @@ button {
 }
 .picture {
   padding-bottom: 120px;
-  padding-top: 120px;
 }
 .imge {
   flex-basis: calc((100% - 3 * 16px) / 3);
